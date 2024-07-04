@@ -1,0 +1,49 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+<meta chartset="utf-8">
+<title>Road to Succes </title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 id="title"> My First Form</h1>
+<p id="description">Thank you for taking the time to complete the form</p>
+<fieldset id="field">
+<form id="survey-form">
+  <label  id="name-label" for="name" > Name<input id="name" placeholder="Enter your name" type="text" required></label>
+  <label id="email-label" for="email"> Email<input id="email"placeholder="example@email.com" name="email" type="email" required></label>
+  <label   id="number-label">Age<input id="number" placeholder="Enter your age" type="number" min="13" max="120"></label>
+  <label for="dropdown">What do you like to Learn?
+          <select id="dropdown" name="dropdown">
+            <option value="">(Select One)</option>
+            <option value="1">Front End</option>
+            <option value="2">Back End</option>
+            <option value="3">Cloud Computing</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <fieldset>
+          <p>Which plataform you prefer?</p>
+ <label id="mobile-label"><input id="mobile" type="radio" name="radio-name" class="inline" checked  value="mobile"/> Mobile</label>
+        <label for="pc"><input id="pc" type="radio" name="radio-name" class="inline" value="pc" /> Pc</label>
+        </fieldset>
+        <fieldset>
+          <p>What would you like to  improved this year? (Check all that apply)</p>
+ <label ><input  type="checkbox"  class="inline" checked value="travel" /> Travel</label>
+        <label ><input  type="checkbox"  class="inline" value="study"/> Study</label>
+        <label ><input  type="checkbox"  class="inline" value="gym" /> Gym</label>
+        <label ><input type="checkbox"  class="inline"value="work" />Work</label>
+        <label><input  type="checkbox"  class="inline" value="meet"/> Meet new people</label>
+        </fieldset>
+        <p>Any comments or suggestions?</p>
+        <textarea id="input-textarea" placeholder=""Enter your comment here...""></textarea>
+        <input id="submit" type="submit" value="Submit" />
+  </form>
+  
+  </fieldset>
+
+</body>
+ </html>

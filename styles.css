@@ -1,0 +1,106 @@
+body{
+    
+    
+    background-image: linear-gradient(to right top, #051937, #004d7a,#008793,#00bf72,#a8eb12);
+       
+    }
+    
+    #title {
+      text-align:center;
+      color: aliceblue;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style:normal;
+         
+    }
+    #description {
+      text-align:center;
+      font-style:italic;
+      
+    }
+    
+    label  {
+      display: block;
+      margin: 1rem 0;
+      text-align:left;
+      padding:0;
+      font-family: "Roboto", sans-serif;
+      font-style: italic;
+      font-weight: bold;
+    
+      
+    }
+    select{
+      display:block;
+      margin: 10px 0 0 0;
+      width: 100%;
+      min-height: 2em;
+      border-radius:5px;
+      border:none;
+    }
+    input{
+      margin: 10px 0 0 0;
+      width: 100%;
+      min-height: 2em;
+      border-radius:5px;
+      border:none;
+    }
+    #survey-form {
+      background-color: #8BC6EC;
+      background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+      padding: 0.1rem 0.625rem;
+      border-radius: 0.25rem;
+      min-width:480px;
+      width: 80%;
+      margin-left: 8%;
+    }
+    placeholder{
+      color:black;
+    }
+    #pc, #mobile {
+       display: inline-block;
+      margin-right: 0.625rem;
+      min-height: 0.5rem;
+      min-width: 0.5rem;
+    }
+    
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+    }
+    
+    fieldset{
+      border:none;
+    }
+    #input-textarea {
+      min-height: 120px;
+      width: 100%;
+      padding: 0.625rem;
+      
+    }
+    #description{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        color: black;
+
+    }
+    p{
+        font-family: "Roboto", sans-serif;
+    }
+    input[type="submit"] {
+      display: block;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.1rem;
+      background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+     width:100%;
+      min-width: 325px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      
+    }
+             
+   
